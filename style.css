@@ -332,11 +332,13 @@ body {
     color: #fff;
     font-size: 1rem;
     margin-bottom: 0,5rem;
+    max-width: 300px
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
+    max-width: 300px
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #555;
@@ -345,6 +347,7 @@ body {
 
 .contact-form button {
     flex-grow: 1;
+    max-width: 300px;
     background: linear-gradient(45deg, #f64c57, #e21b5a);
     color: #fff;
     padding: 1rem 2rem;
