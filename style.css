@@ -324,24 +324,27 @@ body {
 }
 
 .contact-form form {
-    display: grid;
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form label {
     color: #fff;
     font-size: 1rem;
+    margin-bottom: 0,5rem;
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
     padding: 0.5rem;
+    margin-bottom: 1rem;
     border: 1px solid #555;
     border-radius: 5px;
 }
 
 .contact-form button {
+    flex-grow: 1;
     background: linear-gradient(45deg, #f64c57, #e21b5a);
     color: #fff;
     padding: 1rem 2rem;
