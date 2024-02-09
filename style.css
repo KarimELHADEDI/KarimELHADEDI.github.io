@@ -324,7 +324,7 @@ body {
 }
 
 .contact-form form {
-    display: grid;
+    display: flex;
     gap: 1rem;
 }
 
